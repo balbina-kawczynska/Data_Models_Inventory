@@ -6,6 +6,12 @@
     <Name>Inventory.database</Name>
     <FullPath>Inventory.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>ContosoDS.ds</Name>
