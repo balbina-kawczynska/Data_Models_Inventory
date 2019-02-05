@@ -31,6 +31,18 @@
       <Name>Date.dim</Name>
       <FullPath>Date.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Store.dim</Name>
+      <FullPath>Store.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Entity.dim</Name>
+      <FullPath>Entity.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Geography.dim</Name>
+      <FullPath>Geography.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
