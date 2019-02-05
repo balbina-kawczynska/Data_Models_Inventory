@@ -6,6 +6,18 @@
     <Name>Inventory.database</Name>
     <FullPath>Inventory.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>InventoryCube.cube</Name>
+      <FullPath>InventoryCube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>InventoryCube.partitions</Name>
+          <FullPath>InventoryCube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Product.dim</Name>
