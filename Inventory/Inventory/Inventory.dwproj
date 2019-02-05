@@ -11,6 +11,10 @@
       <Name>Product.dim</Name>
       <FullPath>Product.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Currency.dim</Name>
+      <FullPath>Currency.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
