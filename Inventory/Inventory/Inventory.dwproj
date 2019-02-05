@@ -6,10 +6,37 @@
     <Name>Inventory.database</Name>
     <FullPath>Inventory.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>ContosoDS.ds</Name>
+      <FullPath>ContosoDS.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>ContosoDSV.dsv</Name>
+      <FullPath>ContosoDSV.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>ContosoDS</Id>
+            <Name>ContosoDS</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-VSOL9E4;Integrated Security=SSPI;Initial Catalog=ContosoRetailDW</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>ContosoDS</Id>
+            <Name>ContosoDS</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
